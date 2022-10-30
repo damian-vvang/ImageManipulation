@@ -1,5 +1,5 @@
 # ImageManipulation
-Design of a program for image processing and manipulation.The project was made for the purposes of the university task. The project was made using a set of technologies: Java Script, HTM and .Node.js library.
+Design of a program for image processing and manipulation.The project was made for the purposes of the university lab. The task was made using a set of technologies: Java Script, HTM and .Node.js library.
 
 # Preview
 ## Functionality related to the organization of images.
@@ -10,3 +10,10 @@ Design of a program for image processing and manipulation.The project was made f
 
 ## A set of filters that can be used.
 ![preview3](https://user-images.githubusercontent.com/116505961/198899413-ae6a8f2f-6a2b-4a42-80e1-a4bcd155e7f5.jpg)
+
+## Features
+
+- Implementation of the Node.js library
+- Geometric transformations (animation, rotation and flip)
+- Point transformations (negative, binarization, histogram and grayscale).
+- Image management capability (open, move, clone and generate)
