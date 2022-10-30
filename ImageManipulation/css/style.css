@@ -1,0 +1,99 @@
+body{
+    font-family: Verdana;
+}
+#container{
+    width:801px;
+    color:#fff;
+    background-color:#00ffff;
+    font-size: 9pt;
+}
+//-------------------------------------------------------------------
+nav {
+    float: left;
+    font-color: #000;
+    margin: -2px;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    background: #efefef; 
+    padding: 0 8px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    font-size: 9pt;
+}
+nav ul li {
+    float: left;
+    margin: 0px 8px;
+}
+nav ul li:hover {
+    background: #4b545f;
+}
+nav ul li:hover p {
+    color: #fff;
+}
+nav ul li p {
+    display: block; 
+    padding: -2px 8px;
+    color: #000; 
+    text-decoration: none;
+    cursor:pointer;
+}
+nav ul ul {
+    background: #777; 
+    padding: 0;
+    position: absolute; 
+}
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li p {
+    padding: 5px 20px;
+    color: #fff;
+}
+nav ul ul li p:hover {
+    background: #4b545f;
+}
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top:0;
+}
+//-------------------------------------------------------------------
+.control {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.canvas{
+    width: 256px;
+    height: 256px;
+    background-color: #007f7f;
+    margin: 4px;
+}
+.child {
+  float: left;
+}
+.button{
+    width: 170px;
+    height: 38px;
+    background-color: #CCC;
+    margin: 12px;
+    font-size: 9pt;
+}
+.select{
+    width: 128px;
+    height: 38px;
+    background-color: #CCC;
+    margin: 12px 0px 5px 5px;
+}

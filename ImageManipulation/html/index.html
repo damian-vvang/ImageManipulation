@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js"></script>
+        <title>Bitmap Manipulator</title>
+    </head>
+    <body onLoad="updateCanvas();">
+        <div class="control">
+            <select class = "select child" id="setBitmap">
+                <option>Select bitmap</option>
+                <option>lena256</option>
+                <option>airplane256</option>
+                <option>cicada256</option>
+                <option>mandrill256</option>
+                <option>monkey256</option>
+                <option>parrots256</option>
+                <option>tire256</option>
+                <option>black_rectangles256</option>
+                <option>cross_board256</option>
+                <option>five_rectangles256</option>
+                <option>for_histogram256</option>
+                <option>grid256</option>
+                <option>lena_distortions256</option>
+            </select>
+            <button class = "button child" onClick="setBitmap();">Set bitmap</button>
+            <nav class = "child">
+                <ul>
+                    <li><p>Organize</p>
+                        <ul>
+                            <li><p>Open</p>
+                                <ul>
+                                    <li><p onclick="doOpenPhotos()">Open photos</p></li>
+                                    <li><p onclick="doOpenIndustrial()">Open industrial</p></li>
+                                </ul>
+                            </li>
+                            <li><p>Generate</p>
+                                <ul>
+                                    <li><p onclick="doColors()">Colors</p></li>
+                                    <li><p onclick="doNoise()">Noise</p></li>
+                                    <li><p>Grid</p>
+                                        <ul>
+                                            <li><p onclick="doGrid2()">Grid v. 2d</p></li>
+                                            <li><p onclick="doGrid1()">Grid v. 1d</p></li>
+                                        </ul>
+                                    </li>
+                                    <li><p>Test4Histogram</p>
+                                        <ul>
+                                            <li><p onclick="doTest4Histogram1()">Test v. 1</p></li>
+                                            <li><p onclick="doTest4Histogram2()">Test v. 2</p></li>
+                                        </ul>
+                                    </li>
+                                    <li><p>Test4Colors</p>
+                                        <ul>
+                                            <li><p onclick="doTest1()">Test v. 1</p></li>
+                                            <li><p onclick="doTest2()">Test v. 2</p></li>
+                                            <li><p onclick="doTest3()">Test v. 3</p></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><p onclick="doMargins()">Margins</p></li>
+                            <li><p onclick="doClone()">Clone</p></li>
+                            <li><p>Move</p>
+                                <ul>
+                                    <li><p onclick="doMoveO()">Move O</p></li>
+                                    <li><p onclick="doMoveZ()">Move Z</p></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><p>Geometry</p>
+                        <ul>
+                            <li><p onclick="doFlipAnimation()">Flip Animation</p></li>
+                            <li><p onclick="doRotationAnimation()">Rotation Animation</p></li>
+                            <li><p>Rotation</p>
+                                <ul>
+                                    <li><p onclick="doRotation1()">Rotation 90 deg v. 1</p></li>
+                                    <li><p onclick="doRotation2()">Rotation 90 deg v. 2</p></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><p onclick="">Effects</p>
+                        <ul>
+						<li><p onclick="doGrayscale1()">Grayscale</p>
+                                <ul>
+                                    <li><p onclick="doGrayscale1()">Apply for one</p></li>
+                                    <li><p onclick="doGrayscale4all()">Apply for all</p></li>
+                                </ul>
+                        </li>
+                            <li><p onclick="doNegative1()">Negative</p>
+                                <ul>
+                                    <li><p onclick="doNegative1()">Apply for one</p></li>
+                                    <li><p onclick="doNegative4all()">Apply for all</p></li>
+                                </ul>
+                            </li>
+						<li><p onclick="doBinarization1()">Binarization</p>
+                                <ul>
+                                    <li><p onclick="doBinarization1()">Apply for one</p></li>
+                                    <li><p onclick="doBinarization4all()">Apply for all</p></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><p onclick="doRandomize()">Randomize</p></li>
+                    <li><p onclick="doReset()">RESET</p></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="container">
+            <canvas id="myCanvas1" class="canvas" width="256" height="256"></canvas>
+            <canvas id="myCanvas2" class="canvas" width="256" height="256"></canvas>
+            <canvas id="myCanvas3" class="canvas" width="256" height="256"></canvas>
+            <canvas id="myCanvas4" class="canvas" width="256" height="256"></canvas>
+            <canvas id="myCanvas5" class="canvas" width="256" height="256"></canvas>
+            <canvas id="myCanvas6" class="canvas" width="256" height="256"></canvas>
+        </div>
+    </body>
+</html>
