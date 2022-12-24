@@ -20,7 +20,7 @@ Design of a program for image processing and manipulation. The project was made 
 
 ## Requirements:
 
-- "Node.js" runtime environment. URL: https://nodejs.org/en/
+- "Node.js" runtime environment. Installation package: https://nodejs.org/en/
 
 ## Tech Stack
 
