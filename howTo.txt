@@ -1,4 +1,4 @@
-cd C:\Users\...\BitmapManipulation
+cd C:\Users\...\ImageManipulation
 
 npm install -g express --save
 npm install -g connect serve-static --save
