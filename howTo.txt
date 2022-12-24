@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Requirements:
-=======
-cd C:\Users\...\ImageManipulation
->>>>>>> 6537fe65162a72010a4f7c837326795b1cc8d639
 
 "Node.js" runtime environment. Installation package: 
 https://nodejs.org/en/
