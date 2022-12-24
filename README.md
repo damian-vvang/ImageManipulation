@@ -20,25 +20,30 @@ Design of a program for image processing and manipulation. The project was made 
 
 ## Requirements:
 
-- "Node.js" runtime environment. Installation package: https://nodejs.org/en/
+- "Node.js" runtime environment. Installation package:
 
-## Tech Stack
-
-<p align="left"> <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer"> <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-hq-png-1.png" alt="C#" width="80" height="80"/> </a> <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer"> </a> <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> <img src="https://play-lh.googleusercontent.com/vzHVyL8G7birnPZ0zuCQQ2uDxuLIXzYOUGjFDFzIqfx-ww1fq8IysoEiWzhWI3Dw08g" alt="css3" width="80" height="80"/> </a> <a href="https://www.w3schools.com/nodejs/" target="_blank" rel="noreferrer"> <img src="https://www.excelsiortechnologies.com/img/about/node-js.png" alt="css3" width="80" height="80"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/max/300/1*FGBrgdP3-2ZdW9fVlPllbA.png" alt="css3" width="80" height="80"/> </a>
+> https://nodejs.org/en/
 
 ## Installation:
 
 1. Download the "Image Manipulation" directory.
 
-2. Launch the command line and move to the location of the downloaded directory (cd C:\Users\...\ImageManipulation).
+2. Launch the command line and move to the location of the downloaded directory 
+
+> cd C:\Users\...\ImageManipulation
 
 3. Enter the following expressions:
 > npm install -g express --save
+  
 > npm install -g connect serve-static --save
+  
 > npm install -g path --save
+  
 > myServer.bat
 
 4. Enter the following address in your browser:
-
 > http://localhost:8080/
 
+## Tech Stack
+
+<p align="left"> <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer"> <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-hq-png-1.png" alt="C#" width="80" height="80"/> </a> <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer"> </a> <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> <img src="https://play-lh.googleusercontent.com/vzHVyL8G7birnPZ0zuCQQ2uDxuLIXzYOUGjFDFzIqfx-ww1fq8IysoEiWzhWI3Dw08g" alt="css3" width="80" height="80"/> </a> <a href="https://www.w3schools.com/nodejs/" target="_blank" rel="noreferrer"> <img src="https://www.excelsiortechnologies.com/img/about/node-js.png" alt="css3" width="80" height="80"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/max/300/1*FGBrgdP3-2ZdW9fVlPllbA.png" alt="css3" width="80" height="80"/> </a>
