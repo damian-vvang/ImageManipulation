@@ -1,10 +1,20 @@
-cd C:\Users\...\BitmapManipulation
+Requirements:
 
+"Node.js" runtime environment. Installation package: 
+https://nodejs.org/en/
+
+Installation:
+
+1. Download the "Image Manipulation" directory.
+
+2. Launch the command line and move to the location of the downloaded directory 
+cd C:\Users\...\ImageManipulation
+
+3. Enter the following expressions:
 npm install -g express --save
 npm install -g connect serve-static --save
 npm install -g path --save
 myServer.bat
 
-Type in your browser:
+4. Enter the following address in your browser:
 http://localhost:8080/
-
