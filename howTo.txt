@@ -1,6 +1,6 @@
 Requirements:
 
-"Node.js" runtime environment. Installation package: 
+1. "Node.js" runtime environment. Installation package: 
 https://nodejs.org/en/
 
 Installation:
